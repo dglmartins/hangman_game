@@ -1,0 +1,13 @@
+<div id="app">
+  <div v-bind:class="'alert alert-' + game_state_class">
+    {{game_state_message}}
+  </div>
+  <div class="full">
+    <div class="inline quarter">
+      <%= render("_gallows.html") %>
+    </div>
+    <div class="inline center">
+      <%= render("_status.html") %>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<%= game_state(@tally.game_state) %>
+<div class="full">
+  <div class="inline quarter">
+    <%= render("_gallows.html", left: @tally.turns_left) %>
+  </div>
+  <div class="inline center">
+    <%= render("_status.html", tally: @tally, conn: @conn) %>
+  </div>
+</div>

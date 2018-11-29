@@ -1,0 +1,21 @@
+/* This file is for your main application css. */
+
+@import "./phoenix.css";
+
+.full {
+  width: 100%
+}
+
+.inline {
+  display: inline-block;
+}
+
+.quarter {
+  width: 25%
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
